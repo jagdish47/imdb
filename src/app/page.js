@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <main>
-      <h1>Movies</h1>
+      <Header />
     </main>
   );
 }
