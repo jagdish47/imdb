@@ -9,7 +9,7 @@ import { BsFillInfoCircleFill } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <div className="flex justify-between mx-2 max-2-6xl sm:auto items-center">
+    <div className="flex justify-between mx-2 max-2-6xl sm:auto items-center p-5">
       <div className="flex">
         <MenuItem title="HOME" address="/" Icon={AiFillHome} />
         <MenuItem title="ABOUT" address="/about" Icon={BsFillInfoCircleFill} />
